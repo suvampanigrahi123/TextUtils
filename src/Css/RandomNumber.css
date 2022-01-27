@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.RandomNumber {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.RandomNumber > div {
+  background-color: darkblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 12vw;
+}
+
+.RandomMain {
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+  width: 24vw;
+}
+.RandomMain > div {
+  margin: 2vmax;
+}
+.RandomMain > div:first-child > h3 {
+  border: 1px solid #2f4f4f;
+  padding: 0.3vmax 2.6vmax;
+  background: dimgray;
+}
+.Input {
+  display: flex;
+}
+.Input input {
+  background: none;
+  outline: none;
+  color: white;
+}
+.RandomMain > div:last-child > button {
+  background: #1111ec;
+  border: none;
+  outline: none;
+  padding: 0.7vmax 4vmax;
+}

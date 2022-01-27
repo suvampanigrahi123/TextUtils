@@ -1,0 +1,13 @@
+.darkbody{
+    background-color:  #2b2a33;
+    color: white;
+}
+.Mode{
+    position: relative;
+    display: contents;
+}
+.Mode img{
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
